@@ -70,6 +70,7 @@ public class CurrentAccount extends BankAccount{
                 count[ch]--;
             }
         }
+        return res;
     }
     public char getCountMax(int[] count){
         int max=0;
