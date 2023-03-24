@@ -37,5 +37,19 @@ public class SavingsAccount extends BankAccount{
         //rate is always in % so we use /100
         return compoundInterest;
     }
+    public double getRate() {
+        return rate;
+    }
 
+    public double getMaxWithdrawalLimit() {
+        return maxWithdrawalLimit;
+    }
+
+    public void setRate(double rate) {
+        this.rate = rate;
+    }
+
+    public void setMaxWithdrawalLimit(double maxWithdrawalLimit) {
+        this.maxWithdrawalLimit = maxWithdrawalLimit;
+    }
 }
